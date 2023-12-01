@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace Advent_Of_Code_2023
 {
     class Day1 : Puzzle
-    {   
-        public Day1(string inputName) : base(inputName)
-        { }
+    {
+        public Day1(string inputName) : base(inputName) { }
         public override string Date { get { return "2023.12.01"; } }
         public override string Answer()
         {

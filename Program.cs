@@ -16,7 +16,7 @@ namespace Advent_Of_Code_2023
 
             foreach(var i in AnswerList)
             {
-                Console.WriteLine($"Day {i.Index}: {i}");
+                Console.WriteLine($"Day {i.Index} ({i.Date}): {i}");
             }
 
             Console.ReadKey();
