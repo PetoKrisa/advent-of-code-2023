@@ -10,6 +10,16 @@ namespace Advent_Of_Code_2023
     {
         static void Main(string[] args)
         {
+            List<Puzzle> AnswerList = new List<Puzzle> {
+                new Day1("day1_input.txt")
+            };
+
+            foreach(var i in AnswerList)
+            {
+                Console.WriteLine($"Day {i.Index}: {i}");
+            }
+
+            Console.ReadKey();
         }
     }
 }
