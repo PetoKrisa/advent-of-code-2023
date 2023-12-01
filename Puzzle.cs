@@ -19,11 +19,12 @@ namespace Advent_Of_Code_2023
 
         internal List<string> input;
         //solution
-        public abstract string Answer();
+        public abstract string Answer1();
+        public abstract string Answer2();
 
         public override string ToString()
         {
-            return Answer();
+            return $"Part1 = {this.Answer1()}, Part2 = {this.Answer2()}";
         }
     }
 }
