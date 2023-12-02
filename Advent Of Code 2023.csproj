@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Answers\Day1.cs" />
+    <Compile Include="Answers\Day2.cs" />
     <Compile Include="Puzzle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
